@@ -1,3 +1,5 @@
+knitr::opts_chunk$set(fig.width=4, fig.height=4) 
+
 # Generating plots in R using Arcadia colors
 
 R package to generate color palettes using Arcadia Science's colors.
@@ -32,8 +34,8 @@ arcadia.pal(3, 'Accent', choose_random = TRUE)
 
 Use 3 color accent in a boxplot:
 
+        
 ```R
-options(repr.plot.width=4, repr.plot.height=4)
 boxplot(seq(-20, 0, by = .1),
         seq(0, 20, by = .1),
         seq(20, 40, by = .1),

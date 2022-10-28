@@ -16,17 +16,19 @@ The ArcadiaColorBrewer R package can be installed using devtools:
 
 # Examples
         
-Below is example usage of the function, here generating 3 colors from the 'Accent' palette
+Generate 3 colors using the 'Accent' palette:
 
-`arcadia.pal(3, 'Accent')`
+```R
+arcadia.pal(3, 'Accent')
+```
 
-Generate 3 colors from the same palette, but choosing them randomly:
+Generate 3 colors using the same palette, but choosing them randomly:
 
-`arcadia.pal(3, 'Accent', choose_random = TRUE)`
+```R
+arcadia.pal(3, 'Accent', choose_random = TRUE)
+```
 
-A couple of toy plots using different color palettes:
-
-Accent, 3 colors
+Use 3 color accent in a boxplot:
 
 ```R
 boxplot(seq(-20, 0, by = .1),

@@ -41,7 +41,8 @@ boxplot(seq(-20, 0, by = .1),
 ```
 
 
-    
+<img src="output_14_0.png" width="100" height = "100" />
+
 ![png](output_14_0.png)
     
 

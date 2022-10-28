@@ -2,6 +2,12 @@
 
 R package to generate color palettes using Arcadia Science's colors.
 
+# Overview
+
+<font size="3"> This walkthrough contains a function (**arcadia.pal**) for generating figure colors in R that match Arcadia's color palettes for quickly producing publication ready figures. 
+
+<font size="3"> **arcadia.pal** is based on the **brewer.pal** function in the RColorBrewer package and functions similarly. Users provide a desired number of colors and a specific color palette to choose from. Arcadia currently has three color palettes to choose from: Neutral, Accent, and Lighter accents. Overviews of these palettes and can be [accessed here](https://docs.google.com/document/d/1hqy8Oqeffj2sOPGTkusiNNslaV1WinCnWP0N_lzeNVU/edit).
+
 # How to install
 
 The ArcadiaColorBrewer R package can be installed using devtools:
@@ -9,13 +15,6 @@ The ArcadiaColorBrewer R package can be installed using devtools:
 ```R
 devtools::install_github("Arcadia-Science/arcadia-color-brewer")
 ```
-
-# Overview
-
-<font size="3"> This walkthrough contains a function (**arcadia.pal**) for generating figure colors in R that match Arcadia's color palettes for quickly producing publication ready figures. 
-
-<font size="3"> **arcadia.pal** is based on the **brewer.pal** function in the RColorBrewer package and functions similarly. Users provide a desired number of colors and a specific color palette to choose from. Arcadia currently has three color palettes to choose from: Neutral, Accent, and Lighter accents. Overviews of these palettes and can be [accessed here](https://docs.google.com/document/d/1hqy8Oqeffj2sOPGTkusiNNslaV1WinCnWP0N_lzeNVU/edit).
-
 # Examples
         
 Generate 3 colors using the 'Accent' palette:

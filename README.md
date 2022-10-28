@@ -1,5 +1,3 @@
-knitr::opts_chunk$set(fig.width=4, fig.height=4) 
-
 # Generating plots in R using Arcadia colors
 
 R package to generate color palettes using Arcadia Science's colors.

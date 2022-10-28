@@ -6,7 +6,9 @@ R package to generate color palettes using Arcadia Science's colors.
 
 The ArcadiaColorBrewer R package can be installed using devtools:
 
-`devtools::install_github("Arcadia-Science/arcadia-color-brewer")`
+```R
+devtools::install_github("Arcadia-Science/arcadia-color-brewer")
+```
 
 # Overview
 
@@ -31,6 +33,7 @@ arcadia.pal(3, 'Accent', choose_random = TRUE)
 Use 3 color accent in a boxplot:
 
 ```R
+options(repr.plot.width=4, repr.plot.height=4)
 boxplot(seq(-20, 0, by = .1),
         seq(0, 20, by = .1),
         seq(20, 40, by = .1),

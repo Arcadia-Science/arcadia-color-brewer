@@ -40,14 +40,9 @@ boxplot(seq(-20, 0, by = .1),
         col = arcadia.pal(3, 'Accent'))
 ```
 
-
 <img src="output_14_0.png" width="600" height = "600" />
-
-![png](output_14_0.png)
     
-
-
-<font size="3"> Neutral, 3 colors
+Neutral, 3 colors
 
 
 ```R
@@ -57,13 +52,9 @@ boxplot(seq(-20, 0, by = .1),
         col = arcadia.pal(3, 'Neutral'))
 ```
 
+<img src="output_16_0.png" width="600" height = "600" />
 
-    
-![png](output_16_0.png)
-    
-
-
-<font size="3"> Lighter accents, 3 colors
+Lighter accents, 3 colors
 
 
 ```R
@@ -73,8 +64,4 @@ boxplot(seq(-20, 0, by = .1),
         col = arcadia.pal(3, 'Lighter_accents'))
 ```
 
-
-    
-![png](output_18_0.png)
-    
-
+<img src="output_18_0.png" width="600" height = "600" />

@@ -8,7 +8,7 @@ The ArcadiaColorBrewer R package can be installed using devtools:
 
 `devtools::install_github("Arcadia-Science/arcadia-color-brewer")`
 
----
+# Walkthrough
 
 <font size="3"> This walkthrough contains a function (**arcadia.pal**) for generating figure colors in R that match Arcadia's color palettes for quickly producing publication ready figures. 
 

@@ -1,3 +1,13 @@
+#' Generate colors using Aracadia Science's color palettes
+#'
+#' @param n Number of colors.
+#' @param name Which palette to use.
+#' @param choose_random Randomly n sample colors from palette.
+#' @export
+#' @examples
+#' arcadia.pal(n = 3, name = 'Neutral')
+#' arcadia.pal(n = 5, name = 'Neutral', choose_random = TRUE)
+
 arcadia.pal = function(n = 3, 
                        name = c('Neutral', 'Accent', 'Lighter_accents'),
                        choose_random = FALSE){

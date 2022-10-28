@@ -1,6 +1,6 @@
 # Generating plots in R using Arcadia colors
 
----
+R package to generate color palettes using Arcadia Science's colors.
 
 # How to install
 
